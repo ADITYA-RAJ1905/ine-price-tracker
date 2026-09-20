@@ -1,0 +1,20 @@
+{
+  "name": "ine-product-price-tracker",
+  "version": "1.0.0",
+  "description": "INE Software Engineer Intern Assignment - Product Price Tracker (Web Scraping)",
+  "scripts": {
+    "scrape:headed": "npm --prefix backend run scrape:headed",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": [
+    "playwright",
+    "web-scraping",
+    "price-tracker",
+    "supabase",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT"
+}
