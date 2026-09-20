@@ -233,3 +233,4 @@ Free-tier serverless or container hosts (like Render) go to sleep after 15 minut
 | **Judgment** | Lightweight HTTP for catalog search (<100ms); Playwright browser strictly reserved for JavaScript-rendered price scraping; webhook cron for sleep-safe scheduling. |
 | **Observable Headed Mode** | `npm run scrape:headed -- <id>` runs a visible browser window with step-by-step terminal logs for video recording. |
 | **Deployment Ready** | `render.yaml` for Render backend, `vercel.json` for Vercel frontend, `schema.sql` for Supabase PostgreSQL. |
+

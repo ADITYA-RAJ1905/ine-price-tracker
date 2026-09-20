@@ -76,3 +76,4 @@ When naive AI coding tools attempt this assignment, they consistently fall into 
    - *AI Mistake*: The AI uses `parseFloat(text.replace(/[^0-9.]/g, ''))`.
    - *Failure*: Fullwidth Unicode digits (`２２，６１５`) are stripped or mangled, European comma-decimals (`22.615,00`) become `22.61500` (off by a factor of 1000), and zero-width spaces cause NaN errors.
    - *Correction*: Implemented a dedicated multi-stage parser handling fullwidth normalization, character sanitization, and decimal-vs-thousands separator disambiguation.
+

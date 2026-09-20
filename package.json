@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "INE Software Engineer Intern Assignment - Product Price Tracker (Web Scraping)",
   "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
     "scrape:headed": "npm --prefix backend run scrape:headed",
     "backend": "npm --prefix backend run dev",
     "frontend": "npm --prefix frontend run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   },
   "keywords": [
     "playwright",
@@ -18,3 +22,4 @@
   "author": "",
   "license": "MIT"
 }
+
